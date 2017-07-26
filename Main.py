@@ -21,6 +21,6 @@ soup = BeautifulSoup(page,"html.parser")
 ref = soup.a
 soup.a.string
 all_tables=soup.find_all("a")
-o
+or
 
 print all_tables
