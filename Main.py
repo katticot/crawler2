@@ -19,8 +19,9 @@ soup = BeautifulSoup(page,"html.parser")
 #print soup.prettify()
 
 ref = soup.a
-soup.a.string
-all_tables=soup.find_all("a")
-or
+var = soup.a.string
+all_links=soup.find_all("a")
+for link in all_links :
+ print link.get("href")
 
-print all_tables
+#print all_tables
